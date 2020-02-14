@@ -1,6 +1,6 @@
 .SUFFIXES:.c .o
 
-CC=gcc
+CC=clang
 
 SRCS1=server.c
 OBJS1=$(SRCS1:.c=.o)
